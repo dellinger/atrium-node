@@ -8,7 +8,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/atrium');
+mongoose.connect('mongodb://dev:dev@ds029821.mongolab.com:29821/atrium');
 
 var routes = require('./routes/index');
 
