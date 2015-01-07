@@ -2,12 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var Item = require('../models/item');
-
-//just showing middleware functionality
-router.use(function(req, res, next){
-    console.log('Something is working :)');
-    next();
-});
+var winston = require('winston');
 
 
 /* GET home page. */
@@ -20,7 +15,6 @@ router.get('/', function(req, res) {
     });
 });
 
-//TODO: This should be a DELETE HTTP Request later on.
 router.get('/delete/:id', function(req,res){
     Item.findById(req.params.id, function(err, item){
         item.remove(function(err,item){
@@ -37,8 +31,8 @@ router.post('/create',function(req,res){
     price : req.body.price,
     updated_at : Date.now()
   }).save(function(err, item, count) {
-          console.log('Saved item');
-        res.redirect('/');
+          winston.log('info', 'Saved item');
+          res.redirect('/');
       });
 });
 
