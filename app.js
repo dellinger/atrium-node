@@ -1,14 +1,11 @@
-
-
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+require('./db.js');
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://dev:dev@ds029821.mongolab.com:29821/atrium');
 
 var routes = require('./routes/index');
 
