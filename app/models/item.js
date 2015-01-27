@@ -6,6 +6,9 @@ var ItemSchema = new Schema({
     name : String,
     description : String,
     price : Number,
+    date_of_purchase : Date,
+    image : String,
+    receipt_image : String,
     updated_at : Date
 });
 
