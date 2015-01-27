@@ -1,8 +1,7 @@
 var mongoose = require('mongoose');
 var winston = require('winston');
+
 mongoose.connect('mongodb://dev:dev@ds029821.mongolab.com:29821/atrium');
-
-
 
 var db = mongoose.connection;
 db.on('error', function(){
