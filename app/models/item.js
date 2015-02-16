@@ -9,7 +9,7 @@ var ItemSchema = new Schema({
     date_of_purchase : Date,
     image : String,
     receipt_image : String,
-    updated_at : Date
+    updated_at: { type: Date, default: Date.now }
 });
 
 module.exports = mongoose.model('Item', ItemSchema);
