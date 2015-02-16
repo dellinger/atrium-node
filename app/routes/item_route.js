@@ -14,4 +14,44 @@ router.get('/', function(req,res,next){
     });
 });
 
+router.post('/', function(req,res,next){
+    Item.create(req.body, function(err, post){
+        if(err){
+            return next(err);
+        } else {
+            res.json(post);
+        }
+    });
+});
+
+router.get('/:id', function(req,res,next){
+    Item.findById(req.params.id, function(err, post){
+        if(err) {
+            return next(err);
+        } else {
+            res.json(post);
+        }
+    });
+});
+
+router.put('/:id', function(req,res,next){
+    Item.findByIdAndUpdate(req.params.id, req.body, function(err,post){
+        if(err){
+            return next(err);
+        } else {
+            res.json(post);
+        }
+    });
+});
+
+router.delete('/:id', function(req,res,next){
+    Item.findByIdAndRemove(req.params.id, req.body, function(err, post){
+        if(err){
+            return next(err);
+        } else {
+            res.json(post);
+        }
+    })
+});
+
 module.exports = router;
