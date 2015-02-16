@@ -1,3 +1,4 @@
+require('./config/db.js');
 var express = require('express'),
     path = require('path'),
     favicon = require('serve-favicon'),
@@ -7,7 +8,6 @@ var express = require('express'),
     items = require('./app/routes/item_route'),
     app = express();
 
-require('./config/db.js');
 
 
 // view engine setup
@@ -39,10 +39,7 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: err
-        });
+        res.json(err);
     });
 }
 
@@ -50,10 +47,7 @@ if (app.get('env') === 'development') {
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {}
-    });
+    res.json(err);
 });
 
 

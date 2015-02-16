@@ -45,11 +45,11 @@ router.put('/:id', function(req,res,next){
 });
 
 router.delete('/:id', function(req,res,next){
-    Item.findByIdAndRemove(req.params.id, req.body, function(err, post){
+    Item.remove({_id : req.params.id}, function(err){
         if(err){
             return next(err);
         } else {
-            res.json(post);
+            res.send(200);
         }
     })
 });
