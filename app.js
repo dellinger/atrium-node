@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', function(req, res) {
+    res.render('views/index.ejs');
+});
+
 app.use('/items', items);
 
 
