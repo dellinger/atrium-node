@@ -1,9 +1,18 @@
 var express = require('express');
 var router = express.Router();
 
-var mongoose = require('mongoose');
 var Item = require('../models/item.js');
 
+/**
+ *
+ * @api {get} /items/ Retrieve all items
+ * @apiName getItems
+ * @apiGroup Item
+ *
+ * @apiSuccesss {Object} list of items
+ *
+ *
+ */
 router.get('/', function(req,res,next){
     Item.find({},function (err, items, count){
        if(err){
