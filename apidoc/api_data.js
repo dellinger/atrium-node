@@ -6,7 +6,7 @@ define({ "api": [
     "name": "getItems",
     "group": "Item",
     "version": "0.0.0",
-    "filename": "app/routes/item_route.js",
+    "filename": "src/routes/item_route.js",
     "groupTitle": "Item"
   }
 ] });

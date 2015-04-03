@@ -5,12 +5,20 @@ var Item = require('../models/item.js');
 
 /**
  *
- * @api {get} /items/ Retrieve all items
+ * @api {get} /items Retrieve all items
  * @apiName getItems
  * @apiGroup Item
  *
- * @apiSuccesss {Object} list of items
+ * @apiSuccess {Object[]} item List of items.
+ * @apiSuccess {String} item.name
+ * @apiSuccess {String} item.description
+ * @apiSuccess {Number} item.price
  *
+ * @apiSuccessExample Example data on success:
+ * {
+ *  name : 'Gameboy',
+ *  price : 50.99
+ * }
  *
  */
 router.get('/', function(req,res,next){
