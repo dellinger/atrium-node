@@ -14,6 +14,7 @@ var Item = require('../models/item.js');
  * @apiSuccess {String} item.description
  * @apiSuccess {Number} item.price
  *
+ *
  * @apiSuccessExample Example data on success:
  * {
  *  name : 'Gameboy',
@@ -34,6 +35,10 @@ router.get('/', function(req,res,next){
 /**
  * @api {post} /items Create an Item
  *
+ * @apiSuccess {Object[]} item List of items.
+ * @apiSuccess {String} item.name
+ * @apiSuccess {String} item.description
+ * @apiSuccess {Number} item.price
  */
 router.post('/', function(req,res,next){
     if(req.body) {

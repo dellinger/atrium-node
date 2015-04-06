@@ -10,7 +10,5 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-apidoc');
-
-  grunt.registerTask('docs', ['apidoc:doc']);
-
+  grunt.registerTask('doc', ['apidoc:doc']);
 };
