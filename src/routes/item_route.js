@@ -31,14 +31,21 @@ router.get('/', function(req,res,next){
     });
 });
 
+/**
+ * @api {post} /items Create an Item
+ *
+ */
 router.post('/', function(req,res,next){
-    Item.create(req.body, function(err, post){
-        if(err){
-            return next(err);
-        } else {
-            res.json(post);
-        }
-    });
+    if(req.body) {
+        Item.create(req.body, function (err, post) {
+            if (err) {
+                return next(err);
+            } else {
+                res.json(post);
+            }
+        });
+
+    }
 });
 
 router.get('/:id', function(req,res,next){

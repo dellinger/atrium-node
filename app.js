@@ -9,6 +9,14 @@ var express = require('express'),
     app = express();
 
 
+app.use(morgan('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
+// uncomment after placing your favicon in /public
+//src.use(favicon(__dirname + '/public/favicon.ico'));
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/doc',express.static(__dirname + '/apidoc'));
 
@@ -16,13 +24,7 @@ app.use('/doc',express.static(__dirname + '/apidoc'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-// uncomment after placing your favicon in /public
-//src.use(favicon(__dirname + '/public/favicon.ico'));
-app.use(morgan('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 
 app.get('/', function(req, res) {
