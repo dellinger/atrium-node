@@ -1,14 +1,6 @@
 module.exports = function(grunt) {
 
-  grunt.initConfig({
-    apidoc: {
-      doc: {
-        src: "src/",
-        dest: "apidoc/"
-      }
-    }
-  });
+  grunt.initConfig({}
+  );
 
-  grunt.loadNpmTasks('grunt-apidoc');
-  grunt.registerTask('doc', ['apidoc:doc']);
 };

@@ -1,8 +1,0 @@
-{
-  "name": "Atrium Rest Endpoints",
-  "version": "0.1.0",
-  "description": "Documentation of Atrium REST API",
-  "title": "Atrium Api Documentation",
-  "url": "localhost:3000",
-  "sampleUrl" : "/"
-}

@@ -3,25 +3,7 @@ var router = express.Router();
 
 var Item = require('../models/item.js');
 
-/**
- *
- * @api {get} /items Retrieve all items
- * @apiName getItems
- * @apiGroup Item
- *
- * @apiSuccess {Object[]} item List of items.
- * @apiSuccess {String} item.name
- * @apiSuccess {String} item.description
- * @apiSuccess {Number} item.price
- *
- *
- * @apiSuccessExample Example data on success:
- * {
- *  name : 'Gameboy',
- *  price : 50.99
- * }
- *
- */
+// Retrieve an array of items
 router.get('/', function(req,res,next){
     Item.find({},function (err, items, count){
        if(err){
@@ -32,14 +14,7 @@ router.get('/', function(req,res,next){
     });
 });
 
-/**
- * @api {post} /items Create an Item
- *
- * @apiSuccess {Object[]} item List of items.
- * @apiSuccess {String} item.name
- * @apiSuccess {String} item.description
- * @apiSuccess {Number} item.price
- */
+// Create an Item
 router.post('/', function(req,res,next){
     if(req.body) {
         Item.create(req.body, function (err, post) {
