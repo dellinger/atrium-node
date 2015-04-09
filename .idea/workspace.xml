@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4343b0c4-b6f1-4a0c-b9e2-406c07f927a4" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\api_data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\api_data.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\api_project.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\api_project.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\img\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\locales\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\locales\locale.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\locales\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\locales\zh.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\utils\handlebars_helper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\utils\send_sample_request.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\diff_match_patch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\lodash.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\path-to-regexp\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\path-to-regexp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-apollo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-clj.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-dart.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-go.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-hs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-llvm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-mumps.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-n.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-r.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-rd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-vb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-wiki.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-xq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\lang-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\prettify\run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\apidoc\vendor\require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\atrium-endpoints-postman.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\bin\www" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\config\db.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\public\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\public\js\controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\public\js\services.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\public\stylesheets\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\src\controllers\users_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\src\models\item.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\src\routes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\src\routes\item_route.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\views\index.ejs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\GitHub\atrium-node\views\item-list.html" afterPath="" />
+    </list>
+    <ignored path="atrium-node.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="atrium-node" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/models/item.js" />
+        <option value="$PROJECT_DIR$/travis.yml" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/js/services.js" />
+        <option value="$PROJECT_DIR$/views/partials/item-list.html" />
+        <option value="$PROJECT_DIR$/Gruntfile" />
+        <option value="$PROJECT_DIR$/app/routes/item_route.js" />
+        <option value="$PROJECT_DIR$/apidoc.json" />
+        <option value="$PROJECT_DIR$/src/routes/item_route.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers.js" />
+        <option value="$PROJECT_DIR$/index.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <initial>false</initial>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="1400" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atrium-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atrium-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atrium-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/www" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHub\atrium-node\client" />
+      <recent name="C:\Users\David\Documents\GitHub\atrium-node" />
+      <recent name="C:\Users\David\Documents\GitHub\atrium-node\views\partials" />
+      <recent name="C:\Users\David\Documents\GitHub\atrium-node\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Node Server">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Node Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="Basic" />
+      <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="debuggableProgram" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Node Server" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4343b0c4-b6f1-4a0c-b9e2-406c07f927a4" name="Default" comment="" />
+      <created>1424110782338</created>
+      <option name="number" value="Default" />
+      <updated>1424110782338</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19243157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28943217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="2805">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apidoc/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apidoc/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3261391" vertical-offset="2754" max-vertical-offset="11288">
+          <caret line="178" column="15" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09736541" vertical-offset="0" max-vertical-offset="873">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
