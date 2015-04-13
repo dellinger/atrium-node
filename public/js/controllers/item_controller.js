@@ -1,5 +1,5 @@
-angular.module('ItemController', []).controller('ItemController', function($scope) {
+angular.module('ItemController', []).controller('ItemController', function($scope,Item) {
 
-    $scope.tagline = 'Keeping track of items!';
+    $scope.items = Item.get();
 
 });
