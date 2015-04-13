@@ -6,3 +6,6 @@ node_modules/
 public/lib
 test/coverage
 mean.iml
+
+public/libs
+.idea/workspace.xml
