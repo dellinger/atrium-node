@@ -9,15 +9,10 @@ var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
 var mongoose       = require('mongoose');
 
-// configuration ===========================================
-
-// config files
 var db = require('./config/db');
 
-// set our port
 var port = process.env.PORT || 3000;
 
-// connect to  mongoDB database
 mongoose.connect(db.url);
 
 // get all data/stuff of the body (POST) parameters
