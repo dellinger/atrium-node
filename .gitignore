@@ -9,3 +9,5 @@ mean.iml
 
 public/libs
 .idea/workspace.xml
+
+config/secrets.js
